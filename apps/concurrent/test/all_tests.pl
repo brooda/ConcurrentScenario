@@ -5,4 +5,4 @@
         "semi_complex_test.plt",
         "simple_concurrent.plt"
         ]),
-    run_tests.
+    run_tests, halt.
