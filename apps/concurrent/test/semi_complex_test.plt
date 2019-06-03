@@ -83,7 +83,7 @@ test('necessarily accessible not HAPPY at 1') :-
 test('not true that necessarily accessible OwnTv at 1') :-
     get_domain(Domain),
     get_scenario(Scenario),
-    get_query_from_text(Query, 'necessarily accessible OwnTv at 1'),
+    get_query_from_text(Query, 'necessarily accessible OwnTv at -1'),
     \+ run_scenario(Scenario, Domain, Query).
 
 test('not true that necessarily accessible OwnTv at 1') :-
